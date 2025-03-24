@@ -16,6 +16,10 @@ def is_perfect_cube(n: int) -> bool:
 # e.g.:
 #    if math.cbrt(val).is_integer():
 #        total += val
+#
+# The above example works with Python 3.11 but not 3.13
+# So, I wrote the is_perfect_cube() function to have a solution
+# that works on all versions of Python (within reason LOL).
 
 import math
 
